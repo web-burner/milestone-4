@@ -43,18 +43,34 @@
 // numbers.sort((a, b) => b - a);
 // console.log(numbers);
 
-const persons = [
-  { name: "shaon", age: 23, salary: 20000 },
-  { name: "sujon", age: 24, salary: 34000 },
-  { name: "faysal", age: 25, salary: 23000 },
-  { name: "poddo", age: 22, salary: 30000 },
-];
+// const persons = [
+//   { name: "shaon", age: 23, salary: 20000 },
+//   { name: "sujon", age: 24, salary: 34000 },
+//   { name: "faysal", age: 25, salary: 23000 },
+//   { name: "poddo", age: 22, salary: 30000 },
+// ];
 
 // for (let person of persons) {
 //   console.log(person["name"],':', person["salary"]);
 // }
 
-persons[1].name = 'sajjat';
-console.log(persons[1]);
+// persons[1].name = 'sajjat';
+// console.log(persons[1]);
 
 // console.log(persons[1]['salary'])
+
+// 2D array
+
+// const arr = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+// arr[1][1] = 10;
+// console.log(arr[1])
+
+
+// for (let num of arr){
+//     console.log(num[1]);
+// }
+// console.log(arr[1][1])

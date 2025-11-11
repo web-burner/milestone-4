@@ -106,3 +106,49 @@ for (let person of persons) {
 example: 
 persons[1].name = 'sajjat';
 console.log(persons[1]);
+
+
+2D Array = 2 Dymantional array ( array of array)
+
+example : 
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+access element of 2D array : 
+
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+console.log(arr[1][1])
+
+traverse 2D array 
+
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+for (let num of arr){
+    console.log(num[1]);
+} 
+
+
+value change : 
+
+
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+arr[1][1] = 10;
+console.log(arr[1])
+
+আবার এখানে চাইলে push , pop , shift, unshift use করা  যায়। 
