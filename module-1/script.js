@@ -21,6 +21,24 @@
 // }
 // console.log(reversed);
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const reversed = arr.reverse();
-console.log(reversed);
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const reversed = arr.reverse();
+// console.log(reversed);
+
+// sort :
+// const friends = ["shaon", "abir", "poddo", "babu", "roman", "faysal"];
+// console.log(friends);
+// friends.sort();
+// console.log(friends);
+
+// const numbers = [23, 34, 242, 552, 65, 132];
+// console.log(numbers);
+// numbers.sort() // without extra code
+// console.log(numbers);
+// numbers.sort((a, b) => a - b); //with extra code
+// console.log(numbers);
+
+// descending sort
+const numbers = [23, 34, 242, 552, 65, 132];
+numbers.sort((a, b) => b - a);
+console.log(numbers);

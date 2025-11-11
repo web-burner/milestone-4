@@ -34,3 +34,28 @@ reverse shortcut :
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const reversed = arr.reverse();
 console.log(reversed);
+
+
+sort : এর মাধ্যমে এরে এর এলিমেন্ট গুলোকে সাজিয়ে রাখা যায়। তবে এইটা মূল array কে সাজিয়ে রিটার্ন করে আবার চাইলে কোনও একটা নতুন ভ্যারিয়েবল এর মধ্যেও স্টোর করা যায়।
+
+example : 
+const friends = ["shaon", "abir", "poddo", "babu", "roman", "faysal"];
+console.log(friends);
+friends.sort();
+console.log(friends);
+
+তবে sort মূলত string আকারে compare করে। number এর ক্ষেত্রে একটু ঝামেলা করে number কেও string আকারে সাজিয়ে ফেলে। তাই number এর জন্য একটু extra কোড করা লাগে। 
+
+example : ascending sort 
+const numbers = [23, 34, 242, 552, 65, 132];
+console.log(numbers);
+numbers.sort() // without extra code 
+console.log(numbers);
+numbers.sort((a, b) => a - b); //with extra code 
+console.log(numbers);
+
+example :// descending sort
+const numbers = [23, 34, 242, 552, 65, 132];
+numbers.sort((a, b) => b - a);
+console.log(numbers);
+
