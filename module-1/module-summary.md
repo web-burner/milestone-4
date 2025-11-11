@@ -59,3 +59,50 @@ const numbers = [23, 34, 242, 552, 65, 132];
 numbers.sort((a, b) => b - a);
 console.log(numbers);
 
+
+array of object 
+যে array  এর element গুলো object হয় তাই array of object
+
+example : 
+const persons = [
+  { name: "shaon", age: 23, salary: 20000 },
+  { name: "sujon", age: 24, salary: 34000 },
+  { name: "faysal", age: 25, salary: 23000 },
+  { name: "poddo", age: 22, salary: 30000 },
+];
+
+access array of object element 
+
+const persons = [
+  { name: "shaon", age: 23, salary: 20000 },
+  { name: "sujon", age: 24, salary: 34000 },
+  { name: "faysal", age: 25, salary: 23000 },
+  { name: "poddo", age: 22, salary: 30000 },
+];
+
+console.log(persons[1]);
+
+এইভাবে array index দিয়ে element এক্সেস করলে প্রতিবার একটা করে object দিবে।
+
+object এর properties access : 
+
+console.log(persons[1]['salary'])
+
+traverse array of object 
+
+const persons = [
+  { name: "shaon", age: 23, salary: 20000 },
+  { name: "sujon", age: 24, salary: 34000 },
+  { name: "faysal", age: 25, salary: 23000 },
+  { name: "poddo", age: 22, salary: 30000 },
+];
+
+for (let person of persons) {
+  console.log(person["name"],':', person["salary"]);
+}
+
+আবার চাইলে object properties এর value পরিবর্তন করা যায়।
+
+example: 
+persons[1].name = 'sajjat';
+console.log(persons[1]);
