@@ -152,3 +152,39 @@ arr[1][1] = 10;
 console.log(arr[1])
 
 আবার এখানে চাইলে push , pop , shift, unshift use করা  যায়। 
+
+
+copy array element to another array:
+আমরা যখন কোনও ভ্যারিয়েবল থাকে ডাটা কপি করে অন্য ভ্যারিয়েবল তখন তার ভ্যালু তাঁকে কপি করি আর যখন এরে বা অবজেক্ট থেকে ডাটা কপি করি তবে তার রেফারেন্স কে কপি হয়। নিচে এরে এলিমেন্ট কপি করার way দেওয়া হলো। 
+
+1. element push to another array 
+
+const numbers = [12, 32, 432, 54];
+const price = [];
+for (number of numbers) {
+  price.push(number);
+}
+numbers[3] = 10;
+console.log(numbers);
+price[3] = 20;
+console.log(price);
+
+example - ২ : use Array.from()
+const numbers = [1, 2, 3, 4, 5, 6, 7];
+const newArray = Array.from(numbers);
+newArray[3] = 10;
+console.log(newArray);
+console.log(numbers);
+
+example - 3 : concat array 
+const arr = [1,2,3,4,5,6,7];
+const arr2 = [].concat(arr,8,9);
+console.log(arr);
+console.log(arr2)
+
+example -4 : spread operator 
+const nums = [1, 2, 3, 4, 5, 6, 7];
+const num2 = [...nums, 8, 9];
+console.log(nums);
+console.log(num2);
+

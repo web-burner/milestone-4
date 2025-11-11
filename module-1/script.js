@@ -69,8 +69,33 @@
 // arr[1][1] = 10;
 // console.log(arr[1])
 
-
 // for (let num of arr){
 //     console.log(num[1]);
 // }
 // console.log(arr[1][1])
+
+// const numbers = [12, 32, 432, 54];
+// const price = [];
+// for (number of numbers) {
+//   price.push(number);
+// }
+// numbers[3] = 10;
+// console.log(numbers);
+// price[3] = 20;
+// console.log(price);
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+// const newArray = Array.from(numbers);
+// newArray[3] = 10;
+// console.log(newArray);
+// console.log(numbers);
+
+// const arr = [1,2,3,4,5,6,7];
+// const arr2 = [].concat(arr,8,9);
+// console.log(arr);
+// console.log(arr2)
+
+const nums = [1, 2, 3, 4, 5, 6, 7];
+const num2 = [...nums, 8, 9];
+console.log(nums);
+console.log(num2);
