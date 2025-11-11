@@ -20,3 +20,16 @@
 //   console.log(a ** 2);
 // }
 // square(5);
+
+// function myFunc (para1,para2){
+//     do some work
+// }
+
+// myFunc(arguments,arguments)
+
+function multiply(a, b) {
+  console.log(a * b);
+}
+const a = 5;
+const b = 7;
+multiply(a, b);

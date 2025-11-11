@@ -30,3 +30,24 @@ function square(a) {
 square(5);
 
 এইভাবে আমরা চাইলে একাধিক প্যারামিটার নিয়ে ফাঙ্কশন এর মধ্যে কিছু কাজ করে তা আউটপুট বের করতে পারি 
+
+
+arguments : function call করার সময় যেই ভ্যালু pass করছি তাই arguments 
+
+example : 
+
+function myFunc (para1,para2){
+    do some work
+}
+
+myFunc(arguments,arguments)
+
+এখানে আমরা চাইলে আলাদা ভ্যারিয়েবল declare করেও ওই ভ্যারিয়েবল arguments হিসাবে পাঠাতে পারি।
+
+example: 
+function multiply(a, b) {
+  console.log(a * b);
+}
+const a = 5;
+const b = 7;
+multiply(a, b);
