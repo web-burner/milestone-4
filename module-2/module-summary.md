@@ -51,3 +51,27 @@ function multiply(a, b) {
 const a = 5;
 const b = 7;
 multiply(a, b);
+
+function return and set return value to a variable 
+
+return from function 
+// return a value from function 
+
+function doubleIt (num) {
+  const result = num * 2;
+  return result;
+}
+
+doubleIt(5)
+
+এইভাবে রিটার্ন করলে ভ্যালুটা নিয়ে কোনও কাজে লাগানো যায় না। 
+তাই এই ভ্যালু কে কাজে লাগাতে চাইলে একটা ভ্যারিয়েবল এর মধ্যে রাখতে হবে। 
+
+example : 
+function doubleIt(num) {
+  const result = num * 2;
+  return result;
+}
+
+const output = doubleIt(5);
+console.log(output);

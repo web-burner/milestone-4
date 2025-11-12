@@ -27,9 +27,19 @@
 
 // myFunc(arguments,arguments)
 
-function multiply(a, b) {
-  console.log(a * b);
+// function multiply(a, b) {
+//   console.log(a * b);
+// }
+// const a = 5;
+// const b = 7;
+// multiply(a, b);
+
+// return a value from function
+
+function doubleIt(num) {
+  const result = num * 2;
+  return result;
 }
-const a = 5;
-const b = 7;
-multiply(a, b);
+
+const output = doubleIt(5);
+console.log(output);
