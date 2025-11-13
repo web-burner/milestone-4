@@ -69,3 +69,19 @@
 // const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const result = sumOfArray(arr);
 // console.log(result);
+
+// return all even numbers of an array
+
+function evenNumbers(numbers) {
+  const even = [];
+  for (const num of numbers) {
+    if (num % 2 === 0) {
+      even.push(num);
+    }
+  }
+  return even;
+}
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const onlyEven = evenNumbers(numbers);
+console.log(onlyEven);
