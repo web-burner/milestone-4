@@ -44,15 +44,28 @@
 // const output = doubleIt(5);
 // console.log(output);
 
+// // check even odd number
+// function checkEvenOdd(number) {
+//   if (number % 2 === 0) {
+//     return `${number} is Even number`;
+//   } else {
+//     return `${number} is Odd number`;
+//   }
+// }
 
-// check even odd number 
-function checkEvenOdd(number) {
-  if (number % 2 === 0) {
-    return `${number} is Even number`;
-  } else {
-    return `${number} is Odd number`;
-  }
-}
+// const result = checkEvenOdd(10);
+// console.log(result);
 
-const result = checkEvenOdd(10);
-console.log(result);
+// // sum of all number in an array
+// // using function
+
+// function sumOfArray(numbers) {
+//   let sum = 0;
+//   for (let number of numbers) {
+//     sum += number;
+//   }
+//   return sum;
+// }
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const result = sumOfArray(arr);
+// console.log(result);

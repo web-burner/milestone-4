@@ -87,3 +87,19 @@ function checkEvenOdd(number) {
 
 const result = checkEvenOdd(10);
 console.log(result);
+
+
+
+sum of all number in an array 
+    using function 
+
+function sumOfArray(numbers) {
+  let sum = 0;
+  for (let number of numbers) {
+    sum += number;
+  }
+  return sum;
+}
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const result = sumOfArray(arr);
+console.log(result);
