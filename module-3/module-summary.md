@@ -29,3 +29,25 @@ function checkLeapYear(year) {
 const year = 2040;
 const leapYear = checkLeapYear(year);
 console.log(leapYear);
+
+
+// calculate the average number of
+// the odd numbers in an array
+
+function oddAverage(numbers) {
+  let oddNumbers = 0;
+  let count = 0;
+  for (let number of numbers) {
+    if (number % 2 !== 0) {
+      oddNumbers += number;
+      count++;
+
+    }
+  }
+  const average = oddNumbers / count;
+  return average;
+}
+
+const numbers = [42, 13, 58, 65, 81, 96, 7, 5];
+const avg = oddAverage(numbers);
+console.log(avg);
