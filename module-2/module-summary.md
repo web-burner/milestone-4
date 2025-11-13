@@ -75,3 +75,15 @@ function doubleIt(num) {
 
 const output = doubleIt(5);
 console.log(output);
+
+example 2 : // check even odd number 
+function checkEvenOdd(number) {
+  if (number % 2 === 0) {
+    return `${number} is Even number`;
+  } else {
+    return `${number} is Odd number`;
+  }
+}
+
+const result = checkEvenOdd(10);
+console.log(result);
