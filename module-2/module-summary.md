@@ -120,3 +120,54 @@ function evenNumbers(numbers) {
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const onlyEven = evenNumbers(numbers);
 console.log(onlyEven);
+
+
+🧠 Function Practice Tasks (No New Topics)
+
+🔹 1. Basic Function
+	1.	একটা function বানাও sayHello() নামে — console.log করবে "Hello from Function!"
+	2.	একটা function বানাও printName() — তোমার নাম console.log করবে এবং function call করো।
+
+⸻
+
+🔹 2. Function with Parameters
+	1.	addNumbers(a, b) নামে একটা function বানাও যা দুই সংখ্যার যোগফল console.log করবে।
+	2.	subtract(a, b) নামে function বানাও যা বিয়োগফল console.log করবে।
+	3.	introduce(name, age) নামে function বানাও যা console.log করবে "My name is [name] and I am [age] years old."
+
+⸻
+
+🔹 3. Function with Arguments
+	1.	multiply(a, b) নামে function বানাও এবং arguments হিসেবে দুইটা ভ্যারিয়েবল পাঠাও।
+	2.	divide(a, b) নামে function বানাও এবং result console.log করো।
+	3.	showCountry(name, country) function বানাও এবং call করার সময় variable দিয়ে arguments পাঠাও।
+
+⸻
+
+🔹 4. Return from Function
+	1.	square(num) নামে function বানাও যা সংখ্যা square করে return করবে।
+👉 return value একটি variable এ রেখে console.log করো।
+	2.	cube(num) নামে function বানাও যা cube return করবে।
+	3.	addAndReturn(a, b) নামে function বানাও যা দুই সংখ্যার যোগফল return করবে।
+
+⸻
+
+🔹 5. Return Based Condition
+	1.	checkEvenOdd(number) নামে function বানাও — যদি even হয় "Even", না হলে "Odd" return করবে।
+	2.	positiveOrNegative(number) নামে function বানাও — positive হলে "Positive" না হলে "Negative" return করবে।
+
+⸻
+
+🔹 6. Function with Array
+	1.	sumOfArray(numbers) নামে function বানাও যা array এর সব সংখ্যার যোগফল return করবে।
+	2.	evenNumbers(numbers) নামে function বানাও যা শুধুমাত্র even number গুলো return করবে।
+	3.	oddNumbers(numbers) নামে function বানাও যা শুধুমাত্র odd number গুলো return করবে।
+
+⸻
+
+🔹 7. Mixed Function Practice 💥
+	1.	findMax(numbers) নামে function বানাও — array এর মধ্যে সবচেয়ে বড় সংখ্যা return করবে।
+	2.	findMin(numbers) নামে function বানাও — সবচেয়ে ছোট সংখ্যা return করবে।
+	3.	doubleArray(numbers) নামে function বানাও — প্রতিটি সংখ্যা দ্বিগুণ করে নতুন array return করবে।
+	4.	countEven(numbers) নামে function বানাও — even সংখ্যা কয়টা আছে তা return করবে।
+	5.	checkArraySum(numbers) নামে function বানাও — যদি sum > 50 হয় "Large", না হলে "Small" return করবে।
