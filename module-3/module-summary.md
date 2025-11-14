@@ -51,3 +51,32 @@ function oddAverage(numbers) {
 const numbers = [42, 13, 58, 65, 81, 96, 7, 5];
 const avg = oddAverage(numbers);
 console.log(avg);
+
+
+
+// remove duplicate item from array
+
+function noDuplicate(arr) {
+  const uniqueArray = [];
+  for (const item of arr) {
+    if (!uniqueArray.includes(item)) {
+      uniqueArray.push(item);
+    }
+  }
+  return uniqueArray;
+}
+
+const arr = [
+  "abul",
+  "chabul",
+  "nabul",
+  "dabul",
+  "abul",
+  "bulbul",
+  "chabul",
+  "nabul",
+];
+const duplicate = noDuplicate(arr);
+console.log(duplicate);
+
+

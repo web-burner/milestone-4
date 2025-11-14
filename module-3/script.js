@@ -28,23 +28,54 @@
 // const leapYear = checkLeapYear(year);
 // console.log(leapYear);
 
-// calculate the average number of
-// the odd numbers in an array
+// // calculate the average number of
+// // the odd numbers in an array
 
-function oddAverage(numbers) {
-  let oddNumbers = 0;
-  let count = 0;
-  for (let number of numbers) {
-    if (number % 2 !== 0) {
-      oddNumbers += number;
-      count++;
+// function oddAverage(numbers) {
+//   let oddNumbers = 0;
+//   let count = 0;
+//   for (let number of numbers) {
+//     if (number % 2 !== 0) {
+//       oddNumbers += number;
+//       count++;
 
-    }
-  }
-  const average = oddNumbers / count;
-  return average;
-}
+//     }
+//   }
+//   const average = oddNumbers / count;
+//   return average;
+// }
 
-const numbers = [42, 13, 58, 65, 81, 96, 7, 5];
-const avg = oddAverage(numbers);
-console.log(avg);
+// const numbers = [42, 13, 58, 65, 81, 96, 7, 5];
+// const avg = oddAverage(numbers);
+// console.log(avg);
+
+// remove duplicate item from array
+
+// function noDuplicate(arr) {
+//   const uniqueArray = [];
+//   for (const item of arr) {
+//     if (!uniqueArray.includes(item)) {
+//       uniqueArray.push(item);
+//     }
+//   }
+//   return uniqueArray;
+// }
+
+// const arr = [
+//   "abul",
+//   "chabul",
+//   "nabul",
+//   "dabul",
+//   "abul",
+//   "bulbul",
+//   "chabul",
+//   "nabul",
+// ];
+
+
+// const numbers = [12,23,123,4,23,12,43,21,32,23,4,5,43,21]
+// const duplicate = noDuplicate(numbers);
+// console.log(duplicate);
+
+
+
