@@ -86,16 +86,36 @@
 // const min = Math.min(...arr);
 // console.log(min);
 
-
-// // absolute number : 
+// // absolute number :
 // console.log(Math.abs(5-15))
 
-// // round number 
+// // round number
 // console.log(Math.round(5.4));
 // console.log(Math.round(5.5));
 
-// // ceiling number 
+// // ceiling number
 // console.log(Math.ceil(0.1));
 
 // // random number :
 // console.log(Math.random()*100);
+
+// date and time
+
+// const today = new Date();
+// console.log(today)
+// console.log(today.getDate())
+// console.log(today.getDay())
+
+// const date = new Date("2062-10-21");
+// const date = new Date();
+// console.log(date)
+// date.setMonth(10)
+// console.log(date.toString())
+// console.log(date.getMonth());
+// console.log(date.getDay())
+// console.log(date.toLocaleString())
+
+// const date = new Date();
+// console.log(date.toLocaleString('en-GB'))
+
+
