@@ -72,10 +72,30 @@
 //   "nabul",
 // ];
 
-
 // const numbers = [12,23,123,4,23,12,43,21,32,23,4,5,43,21]
 // const duplicate = noDuplicate(numbers);
 // console.log(duplicate);
 
+// // max number
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const max = Math.max(...arr);
+// console.log(max);
+
+// // min number
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const min = Math.min(...arr);
+// console.log(min);
 
 
+// // absolute number : 
+// console.log(Math.abs(5-15))
+
+// // round number 
+// console.log(Math.round(5.4));
+// console.log(Math.round(5.5));
+
+// // ceiling number 
+// console.log(Math.ceil(0.1));
+
+// // random number :
+// console.log(Math.random()*100);
