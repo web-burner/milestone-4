@@ -158,5 +158,20 @@ console.log(date.toLocaleString('en-GB'))
 
 unix epoc : কোনও একটা নির্দিষ্ট ডেট থেকে এখন পর্যন্ত সময় কে compare ব্যবহার করা হয় ।
 
+// swap variable
+let a = 5;
+let b = 7;
+const temp = a;
+a = b;
+b = temp;
+
+console.log(a,b)
+
+// destructing 
+
+let x = 5;
+let y = 7;
+[x,y] = [y,x];
+
 
 
