@@ -118,3 +118,63 @@
 // const numbers = [23, 43, 54, 6, 476, 78, 67, 98];
 // const evenNum = evenNumber(numbers);
 // console.log(evenNum);
+
+// conceptual class
+
+// const arr = ['Shaon','Sajjat','Rana']
+// const arr2= []
+// for(let i of arr){
+// arr2.push('Mr. '+ i)
+// }
+// console.log(arr2)
+
+// const students = [
+//   { name: "Shaon", age: 24 },
+//   { name: "Sajjat", age: 15 },
+// ];
+// console.log(`${students[0].name} is ${students[0].age} years old`)
+
+// const str = 'I am a web developer';
+// let reversed = '';
+// for(let i = str.length-1; i>=0 ; i--){
+//     reversed += str[i]
+// }
+// console.log(reversed)
+
+// (function () {
+//   console.log("hello Bangladesh");
+// })();
+
+// function cubeNumbers(num) {
+//   if(typeof num === 'number' && num >0){
+//     return num ** num;
+//   }else{
+//     return 'Invalid Number'
+//   }
+// }
+// const cube = cubeNumbers(3);
+// console.log(cube);
+
+// function includesStr(str1, str2) {
+//   if (str1.toLowerCase().includes(str2.toLowerCase())) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// // console.log(includesStr("Md Shaon Rana", "rana"));
+
+// function maxNum(arr) {
+//   // console.log(arr)
+//   let max = arr[0];
+//   let min;
+//   if (max < arr[1]) {
+//     min = max;
+//     max = arr[1];
+//   }
+//   return [max, min];
+// }
+
+// console.log(maxNum([4, 6]));
+
+
