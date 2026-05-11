@@ -177,4 +177,91 @@
 
 // console.log(maxNum([4, 6]));
 
+// module 20
+// function inchToFeet(num) {
+//   if (num <= 0) {
+//     return "Invalid Number";
+//   } else {
+//     let feetInch = num / 12;
+//     let feet = parseInt(feetInch);
+//     let feetFloat = num % 12;
 
+//     return `I'm ${feet}feet ${feetFloat}Inch tall`;
+//   }
+// }
+
+// console.log(inchToFeet(70));
+
+// function averageOdds(arr) {
+//   // console.log(arr)
+//   const odds = [];
+//   for (let num of arr) {
+//     if (num % 2 !== 0) {
+//       // console.log(num)
+//       odds.push(num);
+//     }
+//   }
+//   // console.log(odds)
+//   let sum = 0;
+//   let count = 0;
+//   for (let odd of odds) {
+//     sum += odd;
+//     count++;
+//   }
+//   // console.log(sum,count)
+//   return sum / count;
+// }
+
+// const numbers = [
+//   23, 42, 235, 567, 3, 2, 5, 47, 254, 45, 31, 656, 76, 34, 45, 66, 41,
+// ];
+// const average = averageOdds(numbers);
+// console.log(average);
+
+// const persons = ['shaon','sajjat','rahim','rana','shaon','rana']
+// function checkDuplicates (names){
+//   // console.log(names)
+//   const validList = []
+//   for(let name of names){
+//     // console.log(name)
+//     if(!validList.includes(name)){
+//       validList.push(name)
+//     }
+//   }
+//   console.log(validList)
+// }
+
+// checkDuplicates(persons)
+
+// const min = Math.min(23,34,253,22,14,212,12,32)
+// console.log(min)
+// const min = Math.max(23,34,253,22,14,212,12,32)
+// console.log(min)
+
+// const absolute = Math.abs(5,10)
+// console.log(absolute)
+
+// const rounding = Math.round(1.4)
+// console.log(rounding)
+// const rounding = Math.floor(1.9)
+// console.log(rounding)
+// const rounding = Math.ceil(1.2)
+// console.log(rounding)
+
+// const randomNum = Math.random()*999999
+// console.log(Math.round(randomNum))
+
+// const today = new Date()
+// console.log(today)
+// console.log(today.getDay())
+// console.log(today.getDate())
+// console.log(today.getMonth())
+// console.log(today.toLocaleDateString())
+// console.log(today.toLocaleTimeString())
+// console.log(today.toLocaleString())
+
+let x = 5;
+let y = 7;
+console.log(x, y);
+[x, y] = [y, x];
+console.log(x, y);
