@@ -260,8 +260,56 @@
 // console.log(today.toLocaleTimeString())
 // console.log(today.toLocaleString())
 
-let x = 5;
-let y = 7;
-console.log(x, y);
-[x, y] = [y, x];
-console.log(x, y);
+// let x = 5;
+// let y = 7;
+// console.log(x, y);
+// [x, y] = [y, x];
+// console.log(x, y);
+
+// const height = [65,35,67,78,49,70,80,71]
+// let max = height[0]
+// for(let h of height){
+//   if(max < h){
+//     max = h;
+//   }
+// }
+// console.log(max)
+
+const cart = [
+  {
+    productName: "Laptop",
+    price: 1200,
+    quantity: 2,
+  },
+  {
+    productName: "Mouse",
+    price: 25,
+    quantity: 5,
+  },
+  {
+    productName: "Keyboard",
+    price: 75,
+    quantity: 3,
+  },
+  {
+    productName: "Monitor",
+    price: 300,
+    quantity: 2,
+  },
+  {
+    productName: "Headphones",
+    price: 150,
+    quantity: 4,
+  },
+];
+
+function totalCart(products) {
+  //   console.log(products);
+  let total = 0;
+  for (let product of products) {
+    const productTotal = product.price * product.quantity;
+    total += productTotal;
+  }
+  return total;
+}
+console.log(totalCart(cart));
