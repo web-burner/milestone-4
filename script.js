@@ -275,41 +275,282 @@
 // }
 // console.log(max)
 
-const cart = [
-  {
-    productName: "Laptop",
-    price: 1200,
-    quantity: 2,
-  },
-  {
-    productName: "Mouse",
-    price: 25,
-    quantity: 5,
-  },
-  {
-    productName: "Keyboard",
-    price: 75,
-    quantity: 3,
-  },
-  {
-    productName: "Monitor",
-    price: 300,
-    quantity: 2,
-  },
-  {
-    productName: "Headphones",
-    price: 150,
-    quantity: 4,
-  },
-];
+// const cart = [
+//   {
+//     productName: "Laptop",
+//     price: 1200,
+//     quantity: 2,
+//   },
+//   {
+//     productName: "Mouse",
+//     price: 25,
+//     quantity: 5,
+//   },
+//   {
+//     productName: "Keyboard",
+//     price: 75,
+//     quantity: 3,
+//   },
+//   {
+//     productName: "Monitor",
+//     price: 300,
+//     quantity: 2,
+//   },
+//   {
+//     productName: "Headphones",
+//     price: 150,
+//     quantity: 4,
+//   },
+// ];
 
-function totalCart(products) {
-  //   console.log(products);
-  let total = 0;
-  for (let product of products) {
-    const productTotal = product.price * product.quantity;
-    total += productTotal;
-  }
-  return total;
-}
-console.log(totalCart(cart));
+// function totalCart(products) {
+//   //   console.log(products);
+//   let total = 0;
+//   for (let product of products) {
+//     const productTotal = product.price * product.quantity;
+//     total += productTotal;
+//   }
+//   return total;
+// }
+// console.log(totalCart(cart));
+
+// // Create an array of 8 favorite movies. Use a for...of loop to print each movie name in uppercase.
+// const favoriteMovies = [
+//   "Inception",
+//   "Interstellar",
+//   "The Dark Knight",
+//   "Avengers: Endgame",
+//   "Spider-Man: No Way Home",
+//   "Titanic",
+//   "The Shawshank Redemption",
+//   "John Wick",
+// ];
+
+// for (let movie of favoriteMovies) {
+//   console.log(movie.toUpperCase());
+// }
+
+// // Reverse the array manually using unshift()
+// const numbers = [12, 45, 67, 89, 23];
+// const reversed = [];
+// for (let number of numbers) {
+//   reversed.unshift(number);
+// }
+// console.log(reversed);
+
+// // Use the built-in method to reverse
+// const fruits = ["apple", "banana", "orange", "grape"];
+// const reversedFruits = fruits.reverse();
+// console.log(reversedFruits);
+
+// // Sort the following names alphabetically
+// const persons = ["Rahim", "Karim", "Anika", "Sakib", "Mim"];
+// const sorted = persons.sort();
+// console.log(sorted);
+
+// // Sort this array in:
+
+// // * ascending order
+// const nums = [55, 12, 98, 3, 67, 41];
+// const ascendingNums = nums.sort((a, b) => a - b);
+// console.log(ascendingNums);
+
+// // * descending order
+// const descendingNums = nums.sort((a, b) => b - a);
+// console.log(descendingNums);
+
+// // Create an array of 5 students
+// const students = [
+//   {
+//     name: "Rahim",
+//     roll: 1,
+//     marks: 85,
+//   },
+//   {
+//     name: "Karim",
+//     roll: 2,
+//     marks: 78,
+//   },
+//   {
+//     name: "Ayesha",
+//     roll: 3,
+//     marks: 92,
+//   },
+//   {
+//     name: "Nusrat",
+//     roll: 4,
+//     marks: 88,
+//   },
+//   {
+//     name: "Sakib",
+//     roll: 5,
+//     marks: 74,
+//   },
+// ];
+
+// // From the students array, print:
+
+// // * second student’s name
+// console.log(students[1].name);
+
+// // * fourth student’s marks
+// console.log(students[3].marks);
+
+// // Create a 2D array containing 3 rows of numbers.
+// const array2D = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+
+// // From the 2D array:
+// // * print the second row
+// console.log(array2D[1]);
+// // * print the last element of the third row
+// console.log(array2D[2][array2D.length - 1]);
+
+// // Copy one array into another variable and print both.
+// const arrNums = [12, 45, 67, 89, 23];
+// const copyArray = [...arrNums, 20, 35];
+// console.log(arrNums);
+// console.log(copyArray);
+
+// // Create a duplicate array using Array.from().
+// const dupArray = Array.from(arrNums);
+// console.log(dupArray);
+
+// // Copy this array using concat():
+// const colors = ["red", "green", "blue"];
+// const newColors = [].concat(colors);
+// newColors.push("yellow");
+// console.log(colors);
+// console.log(newColors);
+
+// // Create a copy using spread operator:
+// const num = [100, 200, 300];
+// const newNum = [...num];
+// console.log(newNum);
+
+// // Write a function that prints
+// function printSrt() {
+//   console.log("Learning JavaScript Functions");
+// }
+// printSrt();
+
+// // Create a function named greet.
+// function greet() {
+//   console.log("Hello World");
+// }
+// greet();
+
+// // Create a function that takes a name parameter and prints a welcome message.
+// function greetGuest(name) {
+//   console.log("Welcome", name);
+// }
+// greetGuest("Shaon");
+
+// // Create a function that takes:
+
+// // * product name
+// // * quantity
+// // * price
+// function cart(name, quantity, price) {
+//   let total = price * quantity;
+//   console.log(name + " price is " + total + "tk");
+// }
+// cart("Shirt", 2, 500);
+
+// // Call a function using different arguments 3 times.
+// function multiTypeParams(value) {
+//   console.log(value);
+// }
+// multiTypeParams("Shaon");
+// multiTypeParams(24);
+// multiTypeParams(true);
+
+// // Create a function with 2 parameters and call it with 2 arguments.
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+// sum(5, 7);
+
+// // Create a function that returns the square of a number.
+// function square(n) {
+//   return n ** 2;
+// }
+// console.log(square(4));
+
+// // Store a returned value into a variable and print it.
+// const result = square(5);
+// console.log(result);
+
+// // Create a function that returns:
+
+// // * "Even" if number is even
+// // * "Odd" if number is odd
+
+// function isEven(x) {
+//   if (x % 2 === 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// }
+// console.log(isEven(5));
+
+// // Create a function using:
+
+// // * string parameter
+// // * number parameter
+// // * boolean parameter
+// function multiPara(str, num, bool) {
+//   console.log(str);
+//   console.log(num);
+//   console.log(bool);
+// }
+// multiPara("Shaon", 24, true);
+
+// // Create a function that returns the total sum of:
+// function sumOfNums(arr) {
+//   let total = 0;
+//   for (let num of arr) {
+//     total += num;
+//   }
+//   console.log(total);
+// }
+// sumOfNums([10, 20, 30, 40, 50]);
+
+// // Create a function that returns all even numbers from:
+// // [11, 24, 33, 46, 57, 68, 79]
+// function allEvens(nums) {
+//   const even = [];
+//   for (let num of nums) {
+//     if (num % 2 === 0) {
+//       even.push(num);
+//     }
+//   }
+//   return even;
+// }
+// const evens = allEvens([11, 24, 33, 46, 57, 68, 79]);
+// console.log(evens)
+
+// // Inch to Feet
+// // 84 inches
+// function inchToFeet (i){
+//   return i/12;
+// }
+// console.log(inchToFeet(84))
+
+// // Create a Date object and print current date and time.
+// const currentDate = new Date()
+// console.log(currentDate.toDateString())
+// console.log(currentDate.toLocaleTimeString())
+
+//     // today’s date
+// console.log(currentDate.toLocaleDateString())
+
+//     // 1 January 2030
+//     console.log(new Date('1/1/2030'))
+
+// currentDate.setDate(26)
+// console.log(currentDate)
